@@ -15,11 +15,11 @@ _sym_db = _symbol_database.Default()
 
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='beverage.proto',
-  package='test',
+  package='coffee',
   syntax='proto2',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x0e\x62\x65verage.proto\x12\x04test\"D\n\x12OldFashionedCoffee\x12\r\n\x05\x62lend\x18\x01 \x02(\x0c\x12\x11\n\tmilk_type\x18\x02 \x02(\x0c\x12\x0c\n\x04size\x18\x03 \x02(\x0c\"[\n\x0b\x45nergyDrink\x12\x0c\n\x04name\x18\x01 \x02(\x0c\x12\x15\n\rwarning_label\x18\x02 \x02(\x0c\x12\x19\n\x11\x61\x63tive_ingredient\x18\x03 \x02(\x0c\x12\x0c\n\x04size\x18\x04 \x02(\x0c'
+  serialized_pb=b'\n\x0e\x62\x65verage.proto\x12\x06\x63offee\"D\n\x12OldFashionedCoffee\x12\r\n\x05\x62lend\x18\x01 \x02(\x0c\x12\x11\n\tmilk_type\x18\x02 \x02(\x0c\x12\x0c\n\x04size\x18\x03 \x02(\x0c\"[\n\x0b\x45nergyDrink\x12\x0c\n\x04name\x18\x01 \x02(\x0c\x12\x15\n\rwarning_label\x18\x02 \x02(\x0c\x12\x19\n\x11\x61\x63tive_ingredient\x18\x03 \x02(\x0c\x12\x0c\n\x04size\x18\x04 \x02(\x0c'
 )
 
 
@@ -27,28 +27,28 @@ DESCRIPTOR = _descriptor.FileDescriptor(
 
 _OLDFASHIONEDCOFFEE = _descriptor.Descriptor(
   name='OldFashionedCoffee',
-  full_name='test.OldFashionedCoffee',
+  full_name='coffee.OldFashionedCoffee',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='blend', full_name='test.OldFashionedCoffee.blend', index=0,
+      name='blend', full_name='coffee.OldFashionedCoffee.blend', index=0,
       number=1, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='milk_type', full_name='test.OldFashionedCoffee.milk_type', index=1,
+      name='milk_type', full_name='coffee.OldFashionedCoffee.milk_type', index=1,
       number=2, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='size', full_name='test.OldFashionedCoffee.size', index=2,
+      name='size', full_name='coffee.OldFashionedCoffee.size', index=2,
       number=3, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
@@ -66,42 +66,42 @@ _OLDFASHIONEDCOFFEE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=24,
-  serialized_end=92,
+  serialized_start=26,
+  serialized_end=94,
 )
 
 
 _ENERGYDRINK = _descriptor.Descriptor(
   name='EnergyDrink',
-  full_name='test.EnergyDrink',
+  full_name='coffee.EnergyDrink',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   create_key=_descriptor._internal_create_key,
   fields=[
     _descriptor.FieldDescriptor(
-      name='name', full_name='test.EnergyDrink.name', index=0,
+      name='name', full_name='coffee.EnergyDrink.name', index=0,
       number=1, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='warning_label', full_name='test.EnergyDrink.warning_label', index=1,
+      name='warning_label', full_name='coffee.EnergyDrink.warning_label', index=1,
       number=2, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='active_ingredient', full_name='test.EnergyDrink.active_ingredient', index=2,
+      name='active_ingredient', full_name='coffee.EnergyDrink.active_ingredient', index=2,
       number=3, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='size', full_name='test.EnergyDrink.size', index=3,
+      name='size', full_name='coffee.EnergyDrink.size', index=3,
       number=4, type=12, cpp_type=9, label=2,
       has_default_value=False, default_value=b"",
       message_type=None, enum_type=None, containing_type=None,
@@ -119,8 +119,8 @@ _ENERGYDRINK = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=94,
-  serialized_end=185,
+  serialized_start=96,
+  serialized_end=187,
 )
 
 DESCRIPTOR.message_types_by_name['OldFashionedCoffee'] = _OLDFASHIONEDCOFFEE
@@ -130,14 +130,14 @@ _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 OldFashionedCoffee = _reflection.GeneratedProtocolMessageType('OldFashionedCoffee', (_message.Message,), {
   'DESCRIPTOR' : _OLDFASHIONEDCOFFEE,
   '__module__' : 'beverage_pb2'
-  # @@protoc_insertion_point(class_scope:test.OldFashionedCoffee)
+  # @@protoc_insertion_point(class_scope:coffee.OldFashionedCoffee)
   })
 _sym_db.RegisterMessage(OldFashionedCoffee)
 
 EnergyDrink = _reflection.GeneratedProtocolMessageType('EnergyDrink', (_message.Message,), {
   'DESCRIPTOR' : _ENERGYDRINK,
   '__module__' : 'beverage_pb2'
-  # @@protoc_insertion_point(class_scope:test.EnergyDrink)
+  # @@protoc_insertion_point(class_scope:coffee.EnergyDrink)
   })
 _sym_db.RegisterMessage(EnergyDrink)
 

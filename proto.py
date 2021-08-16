@@ -30,7 +30,7 @@ def generate_proto(messages):
         m = message_template.format(name=msg['name'], fields=fields_str)
         messages_str += m
 
-    return package_template.format(package='test', messages=messages_str)
+    return package_template.format(package='coffee', messages=messages_str)
 
 
 if __name__ == '__main__':

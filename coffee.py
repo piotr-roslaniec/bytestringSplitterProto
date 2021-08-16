@@ -92,3 +92,6 @@ if __name__ == '__main__':
 
     print(coffee_str)
     print(coffee_str.hex())
+    print(f"blend: {bytes(coffee.blend).hex()}")
+    print(f"milk_type: {coffee.milk_type.hex()}")
+    print(f"size: {coffee.size.hex()}")
