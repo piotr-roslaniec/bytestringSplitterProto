@@ -1,0 +1,23 @@
+
+syntax = "proto2";
+
+package test;
+
+
+message OldFashionedCoffee {
+	required bytes blend = 1;
+	required bytes milk_type = 2;
+	required bytes size = 3;
+
+}
+
+
+message EnergyDrink {
+	required bytes name = 1;
+	required bytes warning_label = 2;
+	required bytes active_ingredient = 3;
+	required bytes size = 4;
+
+}
+
+

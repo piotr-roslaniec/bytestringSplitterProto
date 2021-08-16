@@ -1,0 +1,19 @@
+{
+  "name": "bytestringsplitterproto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "proto": "protoc --proto_path=. --js_out=import_style=commonjs,binary=./lib out.proto"
+  },
+  "author": "Piotr Roslaniec",
+  "license": "MIT",
+  "dependencies": {
+    "npm": "^7.20.6",
+    "protobufjs": "^6.11.2"
+  }
+}
